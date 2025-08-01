@@ -1,0 +1,20 @@
+.card{
+  transform-style: preserve-3d; /*make element inside card perserve 3d position*/
+  transition: 1s;
+}
+
+.card:hover {
+  transform: rotateY(-180deg);
+}
+.text-behind {
+  transform: rotateY(180deg); /*make text behind turn to the back face of card*/
+  backface-visibility: hidden; /*hide text at back face when not fliped*/
+  top: 0px; bottom: 0px;/* text positioning*/
+}
+
+.container-fluid1 {
+  background-image: url('images/school.jpg');
+    background-size: cover; /* Adjust the image size to cover the container */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+  

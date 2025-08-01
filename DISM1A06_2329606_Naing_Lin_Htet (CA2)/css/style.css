@@ -1,0 +1,16 @@
+h1 {
+    font-size: 36px;
+}
+
+#earth {
+    position: relative;
+    margin-top: 20px;
+}
+
+.trash-item {
+    position: absolute;
+    cursor: pointer;
+    width: 40px; /* Adjust the width of the trash item */
+    height: 40px; /* Adjust the height of the trash item */
+    z-index: 1; /* Ensure trash items are above the Earth */
+}
